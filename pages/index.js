@@ -22,7 +22,7 @@ export default function Home({ colors }) {
       <section className="flex flex-col  space-y-10 mt-12 sm:mt-24 md:mt-32 pb-24">
         {/* Headlines */}
         
-        <h2 className="text-3xl text-center leading-normal sm:text-6xl font-bold  ">Face Colors</h2>
+        <h2 className="text-3xl text-center leading-normal sm:text-6xl font-thin  ">Face Colors</h2>
 
         {colors.map((d) => (
           <div key={d.id}>
