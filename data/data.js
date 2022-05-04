@@ -23,5 +23,20 @@ export const colors = [
         id: "fl2020",
         name: "Fall 2020",
         colors: [ "#EF4F47", "#5C7299", "#739B9D", "#FE8851", "#FFE3B7", "#636D59", "#93424D" ]
+    },
+    {
+        id: "sm2020",
+        name: "Summer 2020",
+        colors: [ "#D4F2DD", "#566C94", "#826F60" ]
+    },
+    {
+        id: "sp2020",
+        name: "Spring 2020",
+        colors: [ "#6B8A82", "#1685B7", "#FEB28C", "#FF3A3B" ]
+    },
+    {
+        id: "wn2020",
+        name: "Winter 2020",
+        colors: [ "#D4F2BD", "#E02B5F", "#8B7F58" ]
     }
 ]
