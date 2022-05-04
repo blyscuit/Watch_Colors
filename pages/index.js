@@ -25,16 +25,16 @@ export default function Home({ colors }) {
         <h2 className="text-3xl text-center leading-normal sm:text-6xl font-bold  ">Face Colors</h2>
 
         {colors.map((d) => (
-          <>
+          <div key={d.id}>
             <p className="text-xl sm:text-md px-12 ">{d.name}</p>
             
             <div className="grid grid-cols-6 gap-12 pt-4 pb-8 px-12 overflow-x-auto hover:overflow-x-scroll">
             {d.colors.map((color) => (
-                <div style={{backgroundColor: color }} className="rounded-full h-16 w-16"></div>
+                <div key={color} style={{backgroundColor: color }} className="rounded-full h-16 w-16"></div>
             ))}
               </div>
 
-          </>
+          </div>
         ))}
       </section>
     </Layout>
