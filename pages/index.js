@@ -19,18 +19,18 @@ export default function Home({ colors }) {
       </Head>
       {/* Hero Section  */}
 
-      <section class="flex flex-col  space-y-10 mt-12 sm:mt-24 md:mt-32 pb-24">
+      <section className="flex flex-col  space-y-10 mt-12 sm:mt-24 md:mt-32 pb-24">
         {/* Headlines */}
         
-        <h2 class="text-3xl text-center leading-normal sm:text-6xl font-bold  ">Face Colors</h2>
+        <h2 className="text-3xl text-center leading-normal sm:text-6xl font-bold  ">Face Colors</h2>
 
         {colors.map((d) => (
           <>
             <p className="text-xl sm:text-md px-12 ">{d.name}</p>
             
-            <div class="grid grid-cols-6 gap-12 pt-4 pb-8 px-12 overflow-x-auto hover:overflow-x-scroll">
+            <div className="grid grid-cols-6 gap-12 pt-4 pb-8 px-12 overflow-x-auto hover:overflow-x-scroll">
             {d.colors.map((color) => (
-                <div style={{backgroundColor: color }} class="rounded-full h-16 w-16"></div>
+                <div style={{backgroundColor: color }} className="rounded-full h-16 w-16"></div>
             ))}
               </div>
 
