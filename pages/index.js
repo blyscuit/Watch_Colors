@@ -1,6 +1,6 @@
 import Layout from "../sections/Layout";
 import { colors } from "../data/data";
-import Head from 'next/head'
+import Head from 'next/head';
 import React from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -78,6 +78,7 @@ export default function Home({ colors }) {
         {colors.map((d) => (
 
     <motion.div
+    key={d}
     className="card-container"
     initial="offscreen"
     whileInView="onscreen"
