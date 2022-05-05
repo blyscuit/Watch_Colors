@@ -108,7 +108,7 @@ export default function Home({ colors }) {
       <div className={
         (likes.length > 0 ? "visible " : "invisible " )+
         (likes.length > 0 ? "translate-y-0 " : "translate-y-96 " )+
-      "transition ease-in-out  flex items-center flex-row sticky bottom-0 bg-gray-900 left-0 right-0 px-8 py-2"}>
+      "transition ease-in-out  flex items-center flex-row fixed bottom-0 bg-gray-900 left-0 right-0 px-8 py-2 "}>
               <div className="h-8 w-8 rounded-lg" style={{backgroundColor: likes }}></div>
               <button onClick={handleCopy} className="px-6 grow text-left" >{likes}</button>
               <button onClick={handleCopy} className="btn justify-self-end">Copy</button>
