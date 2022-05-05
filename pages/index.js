@@ -102,6 +102,21 @@ export default function Home({ colors }) {
       </div>
     </motion.div>
         ))}
+        <footer className="px-4 sm:px-6 py-6 mt-24">
+      <div className="text-center mb-2 text-gray-500">
+        <a href="https://github.com/blyscuit/Watch_Colors" target="_blank">Github</a>
+        <span> </span>
+        <a href="https://twitter.com/blyscuit" target="_blank">Twitter</a>
+      </div>
+
+      <div className="text-center mb-2 text-gray-500">
+        <a href="https://raw.githubusercontent.com/blyscuit/Watch_Colors/main/data.json" target="_blank">JSON</a>
+      </div>
+      
+      <div className="text-center text-sm text-gray-500">
+         &copy; {new Date().getFullYear()}   All Rights Reserved
+      </div>
+    </footer>
         </div>
       </section>
       <div className={
