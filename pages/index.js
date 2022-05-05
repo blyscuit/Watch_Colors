@@ -65,6 +65,7 @@ export default function Home({ colors }) {
       <Head>
         <title>Apple Watch Face Colors</title>
         <meta name="description" content="Color Palletes created from Apple Watch Face Colors" />
+        <meta name="google-site-verification" content="_ucuBoWtz2ZuQc_hhg2xFtORliTaRhAesQ5-YP4MnOY" />
       </Head>
       {/* Hero Section  */}
 
