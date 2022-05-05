@@ -104,13 +104,13 @@ export default function Home({ colors }) {
         ))}
         <footer className="px-4 sm:px-6 py-6 mt-24">
       <div className="text-center mb-2 text-gray-500">
-        <a href="https://github.com/blyscuit/Watch_Colors" target="_blank">Github</a>
+        <a href="https://github.com/blyscuit/Watch_Colors" target="_blank" rel="noreferrer">Github</a>
         <span> </span>
-        <a href="https://twitter.com/blyscuit" target="_blank">Twitter</a>
+        <a href="https://twitter.com/blyscuit" target="_blank" rel="noreferrer">Twitter</a>
       </div>
 
       <div className="text-center mb-2 text-gray-500">
-        <a href="https://raw.githubusercontent.com/blyscuit/Watch_Colors/main/data.json" target="_blank">JSON</a>
+        <a href="https://raw.githubusercontent.com/blyscuit/Watch_Colors/main/data.json" rel="noreferrer" target="_blank">JSON</a>
       </div>
       
       <div className="text-center text-sm text-gray-500">
